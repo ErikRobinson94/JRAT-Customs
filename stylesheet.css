@@ -265,6 +265,11 @@ nav ul li {
 
 }
 
+.buttonHover {
+    background-color: white;
+    color: black;
+}
+
 #supportingText {
     height: 70%;
     width: 40%;
