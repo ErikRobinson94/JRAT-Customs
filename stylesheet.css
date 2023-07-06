@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+}
+
+#hero {
+   display: flex; 
+   flex-direction: column;
+   height: 100vh;
+   width: 100vw;
+   background-color: black;
+   outline-style: solid;
+   outline-color: black;
+
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#logo {
+    height:30px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#logo img {
+    height:40px;
+    width: auto;
+}
+
+nav ul li {
+    color:white;
+    display: inline-block;
+    font-size: 20px;
+    list-style: none;
+    margin-right: 75px;
+    font-weight: bold;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+#Contact {
+    height:30px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    text-align: center;
+    color: gold;
+    outline-color: gold;
+    outline-style: solid;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+#mainContent {
+    height: 65%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+#bike{
+    height:100%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+}
+
+#bike video{ 
+    height:100%;
+    width: 100%;
+   
+}
+#mileage {
+    height:100%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    
+    
+}
+
+#mileageContent {
+    height:100%;
+    width: 80%;
+    display: flex;
+    
+}
+
+#shinyBike {
+    height:100%;
+    width: 45%;
+    
+       
+}
+
+#specs {
+    height:100%;
+    width: 55%;
+    
+       
+}
+
+#speed {
+    height: 30%;
+    width:100%;
+    color: white;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+#speed h1{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 20px 10px 10px 0px ;
+    margin: 0px 0px 0px 0px ;
+    line-height: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#speed h3{
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 20px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    line-height: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+
+#range {
+    height: 30%;
+    width:100%;
+    color: white;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#range h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 20px 10px 10px 0px ;
+    margin: 0px 0px 0px 0px ;
+    line-height: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+#range h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 20px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    line-height: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+#small {
+    font-size: 1.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+#charge {
+    height: 30%;
+    width:100%;
+    color: white;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#charge h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 20px 10px 10px 0px ;
+    margin: 0px 0px 0px 0px ;
+    line-height: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+#charge h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 20px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    line-height: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+
+
+#subContent {
+    height: 35%;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items:stretch;
+}
+#title {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    
+
+}
+#heroText {
+    font-size: 4vw;
+    color: white;
+    letter-spacing: 3px;
+    margin: 0px 0px 0px 50px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+#sliderContainer {
+    height: 70%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#sliderWrap{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#sliderWrap img{
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+#slider{
+    height: 10px;
+    width: 50%;
+    background: white;
+    
+
+}
+
+#supportingText {
+    height: 70%;
+    width: 40%;
+
+}
+
+#supportingText p {
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+    font-weight:300;
+    letter-spacing: 2px;
+}
+.emph {
+    text-decoration: underline;
+    font-weight: 600;
+    
+}
