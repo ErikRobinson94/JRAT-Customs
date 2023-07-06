@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
+
 }
 
 #hero {
    display: flex; 
    flex-direction: column;
    height: 100vh;
-   width: 100vw;
+   width: 100%;
    background-color: black;
    outline-style: solid;
    outline-color: black;
@@ -16,7 +17,7 @@
 nav {
     display: flex;
     height: 50px;
-    width: 100vw;
+    width: 100%;
     background-color: black;
     align-items: center;
     flex-direction: row;
@@ -102,10 +103,28 @@ nav ul li {
     display: flex;
     
 }
-
-#shinyBike {
+#bikewrapper {
+    display: flex;
+    flex-direction: column;
     height:100%;
     width: 45%;
+    align-items: end;
+    justify-content: end;
+  
+
+}
+
+#shinyBike {
+    height:90%;
+    width: 100%;
+
+       
+}
+
+#shinyBike img {
+    max-height:100%;
+    max-width: 100%;
+
     
        
 }
@@ -117,8 +136,17 @@ nav ul li {
        
 }
 
+#alignspecs {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
 #speed {
-    height: 30%;
+    height: 15%;
     width:100%;
     color: white;
     text-align: center;
@@ -148,7 +176,7 @@ nav ul li {
 
 
 #range {
-    height: 30%;
+    height: 15%;
     width:100%;
     color: white;
     text-align: center;
@@ -182,7 +210,7 @@ nav ul li {
 
 
 #charge {
-    height: 30%;
+    height: 15%;
     width:100%;
     color: white;
     text-align: center;
