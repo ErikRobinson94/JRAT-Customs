@@ -11,3 +11,29 @@ function contactChangeRemove() {
 
 contact.addEventListener('mouseover', contactChange);
 contact.addEventListener('mouseout', contactChangeRemove);
+
+let e = document.getElementById('information');
+e.onmouseover = function() {
+  document.getElementById('popup').style.display = 'block';
+  document.getElementById('popup').style.color = 'white';
+}
+
+e.onmouseout = function() {
+    document.getElementById('popup').style.display = 'none';
+  }
+
+ let rightArrow = document.getElementById('rightArrow');
+ let rightCounter = document.getElementById('rightCount')
+ let leftcount = document.getElementById('leftCount');
+
+ counter = 0
+ function slide () {
+  if (counter < 10) {
+    leftcount.innerHTML = ++counter;
+  } else {
+    leftcount.innerHTML = 0;
+    counter = 0;
+  }
+ };
+
+rightArrow.addEventListener('click', slide);

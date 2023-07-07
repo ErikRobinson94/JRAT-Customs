@@ -4,7 +4,8 @@
 <link rel="stylesheet" href="stylesheet.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Yellowtail&family=Permanent+Marker&family=Rock+Salt&display=swap" rel="stylesheet">
+
 <title>Jrat Customs - Custom Electric Bikes</title>
 </head>
 <body>
@@ -36,7 +37,7 @@
             <div id="mileageContent">
                 <div id="bikewrapper">
                     <div id="shinyBike">
-                        <img src="assets/shinyWheel.png" alt="shiny rim">
+                        <img src="assets/rickrossimage.png" alt="shiny rim">
                     </div>
                 </div>
                 <div id="specs">
@@ -46,8 +47,11 @@
                             <h1>30 MPH</h1>
                         </div>
                         <div id="range">
+                            <div id="information"><img src="assets/info.png" alt="moreinformatoinicon">
+                            </div>
                             <h3> RANGE</h3> 
                             <h1>UP TO 30<span id="small">MI</span></h1>
+                            <div id="popup" style="display: none">Range varies based on the weight of the rider</div>
                         </div>
                         <div id="charge">
                             <h3> RECHARGES IN</h3> 
@@ -65,10 +69,12 @@
         </div>
         <div id = "sliderContainer">
             <div id="sliderWrap">
-                <img src="assets/leftarrow.png"> 
+                <img id="leftArrow"src="assets/leftarrow.png"> 
+                <div id="leftCount"><h3>0</h3></div>
                 <div id = "slider">
                 </div>
-                <img src="assets/right arrow.png"> 
+                <div id="rightCount"><h3>10</h3></div>
+                <img id="rightArrow"src="assets/right arrow.png"> 
             </div>
 
         </div>
