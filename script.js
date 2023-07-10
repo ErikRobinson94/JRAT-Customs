@@ -29,12 +29,27 @@ e.onmouseout = function() {
 
  counter = 0
  function slide () {
-  if (counter < 10) {
     leftcount.innerHTML = ++counter;
     let widhthpercent = `${counter*10}%`
     myprogress.style.width = `${widhthpercent}`;
+  if (counter == 1) {
+    document.getElementById('biketwo').style.display = "flex";
+    document.getElementById('chris').style.display = "block";
+    document.getElementById('shinyBike').style.display = "none";
+    document.getElementById('bike').style.display = "none";
+    
 
-  } else {
+  } else if (counter == 2) {
+    document.getElementById('biketwo').style.display = "none";
+    document.getElementById('chris').style.display = "none";
+    document.getElementById('shinyBike').style.display = "block";
+    document.getElementById('bike').style.display = "flex";
+    
+
+  }
+  
+  
+  else {
     leftcount.innerHTML = 0;
     myprogress.style.width = "1%";
     counter = 0;
