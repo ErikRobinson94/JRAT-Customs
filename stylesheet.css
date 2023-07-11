@@ -85,6 +85,7 @@
          
      }
      
+
      #bike video{ 
          height:100%;
          width: 100%;
@@ -134,9 +135,86 @@
      #specs {
          height:100%;
          width: 55%;
-         
-            
+         color: white; 
+         font-family: 'Archivo Black', sans-serif;
+         font-family: 'Chakra Petch', sans-serif;
+         letter-spacing: 2px;
+         font-size: 14px;
+         line-height: 20px;
+         padding-left: 10px;
+         padding-right: 10px;
+         color: white;
      }
+
+        
+    
+     #specifications {
+        width: 100%;
+        min-height: 10%;
+        width: 100%;
+        border-color: white;
+        color: white;
+        border-style: solid;
+        margin-bottom: 10px;
+        padding: 5px 5px 5px 5px;
+        position: relative;
+        background-color: black;
+     }
+
+     #specifications h2 {
+        display: inline-block;
+        position: relative;
+        float: left;
+        font-size: 12px;
+        margin: auto;
+    
+     }
+
+     #specDetail {
+        height: 100%;
+        width: 100%;
+        color: white;
+        background-color: red;
+        display: none;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: 'Chakra Petch', sans-serif;
+        border: solid white 2px;
+     }
+
+     #gallery {
+        display: flex;
+        height:75px;
+        width: 100%;
+
+     }
+
+    
+
+    #sizzle video {
+        height:auto;
+         width: 100%;
+         border: solid 2px white;
+         box-shadow: 2px 4px 5px rgba(255, 255, 255, 0.432);
+
+    }
+     
+
+     
+
+     #float {
+        position: absolute;
+        right: 0;
+        display: block;
+        margin-right: 5px;
+     }
+     #float img {
+        max-height: 20px;
+        max-width: 20px;
+    
+     }
+
+     
      
      #alignspecs {
          height: 100%;
@@ -178,7 +256,7 @@
      
      
      #range {
-         height: 15%;
+         max-height: 25%;
          width:100%;
          color: white;
          text-align: center;
@@ -325,6 +403,18 @@
          font-weight: 600;
          
      }
+
+     .sold {
+        color: red;
+        font-weight: 900;
+        font-style: 'Archivo Black', sans-serif;
+        
+    }
+
+    .italic {
+        font-style: 'italic';
+    }
+
      #information {
          position: relative;
          height: auto;
@@ -387,6 +477,10 @@
          max-width: 100%;
      }
      
-     
+     #popup {
+        height: auto;
+        width: auto;
+        position: relative;
+     }
 }
 
