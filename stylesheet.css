@@ -5,6 +5,10 @@
 
 /* for mobile screens*/
 @media only screen and (min-width: 200px) and (max-width: 600px) {
+    html {
+        height: -webkit-fill-available;
+      }
+      
     body {
         min-height: 100vh;
         overflow-y: scroll;
