@@ -8,8 +8,9 @@
    
 
     body {
-        min-height: -webkit-fill-available;
-        min-height: 100vh;
+        height: 100vh;
+        height: var( — app-height);
+        overflow: hidden;
         
     }
 
