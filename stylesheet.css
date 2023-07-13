@@ -3,7 +3,509 @@
 
 }
 
-@media only screen and (max-width: 1400px) {
+/* for mobile screens*/
+@media only screen and (max-width: 600px) {
+    #hero {
+        display: flex; 
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        outline-style: solid;
+        outline-color: black;
+     
+     }
+     
+     nav {
+         display: flex;
+         height: 50px;
+         width: 100%;
+         background-color: black;
+         align-items: center;
+         flex-direction: row;
+         justify-content: space-between;
+     
+     }
+     #logo {
+         height:50px;
+         width: auto;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         margin-left: 20px;
+         text-align: center;
+         color: white;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     #logo img {
+         height:40px;
+         width: auto;
+     }
+     
+     nav ul li {
+         color:white;
+         display: inline-block;
+         font-size: 14px;
+         list-style: none;
+         margin-right: 30px;
+         font-weight: bold;
+         font-family: 'Chakra Petch', sans-serif;
+         display: none;
+     
+     }
+     
+     #Contact {
+         height:30px;
+         width: auto;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         margin-right: 10px;
+         text-align: center;
+         color: gold;
+         outline-color: gold;
+         outline-style: solid;
+         padding: 10px 10px 10px 10px;
+         font-family: 'Chakra Petch', sans-serif;
+         font-size: 14px;
+     
+     }
+     
+     #mainContent {
+         height: 80%;
+         width: 100%;
+         background-color: black;
+         display: flex;
+         flex-wrap: wrap;
+
+     }
+     
+     #bike{
+         min-height:40%;
+         max-height: 50%;
+         width: 100%;
+         background-color: black;
+         
+     }
+     
+
+     #bike video{ 
+         height:100%;
+         width: 100%;
+        
+     }
+     #mileage {
+         height:40%;
+         width: 100%;
+         background-color: black;
+         display: flex;
+         flex-wrap: wrap;
+       
+         
+     }
+     
+     #mileageContent {
+         height:100%;
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+         
+         
+     }
+     #bikewrapper {
+         display: flex;
+         flex-direction: column;
+         height:100%;
+         width: 45%;
+         align-items: end;
+         justify-content: end;
+         display: none;
+       
+     
+     }
+     
+     #shinyBike {
+         height:90%;
+         width: 100%;
+     
+            
+     }
+     
+     #shinyBike img {
+         max-height:100%;
+         max-width: 100%;
+     
+         
+            
+     }
+     
+     #specs {
+         height:100%;
+         width: 100%;
+         color: white; 
+         font-family: 'Archivo Black', sans-serif;
+         font-family: 'Chakra Petch', sans-serif;
+         letter-spacing: 2px;
+         font-size: 14px;
+         line-height: 20px;
+         padding-left: 10px;
+         padding-right: 10px;
+         border-top: solid 1px rgba(255, 255, 255, 0.74);
+         
+     }
+
+        
+    
+     #specifications {
+        width: 100%;
+        min-height: 10%;
+        border-color: white;
+        color: white;
+        border-style: solid;
+        margin-bottom: 10px;
+        padding: 5px 5px 5px 5px;
+        position: relative;
+        background-color: black;
+        display: none;
+     }
+
+     #specifications h2 {
+        display: inline-block;
+        position: relative;
+        float: left;
+        font-size: 12px;
+        margin: auto;
+    
+     }
+
+     #specDetail {
+        height: 100%;
+        width: 100%;
+        color: white;
+        background-color: red;
+        display: none;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: 'Chakra Petch', sans-serif;
+        border: solid white 2px;
+     }
+
+     #gallery {
+        display: flex;
+        height:75px;
+        width: 100%;
+        display: none;
+
+     }
+
+    
+
+    #sizzle video {
+        height:auto;
+         width: 100%;
+         border: solid 2px white;
+         box-shadow: 2px 4px 5px rgba(255, 255, 255, 0.432);
+
+    }
+     
+
+     
+
+     #float {
+        position: absolute;
+        right: 0;
+        display: block;
+        margin-right: 5px;
+     }
+     #float img {
+        max-height: 20px;
+        max-width: 20px;
+    
+     }
+
+     
+     
+     #alignspecs {
+         height: 100%;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: end;
+         justify-content: center;
+     }
+     
+     #speed {
+         height: 15%;
+         width:100%;
+         color: white;
+         text-align: center;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     
+     #speed h1{
+         font-size: 3rem;
+         font-weight: 700;
+         padding: 20px 10px 10px 0px ;
+         margin: 0px 0px 0px 0px ;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     
+     #speed h3{
+         font-size: 1rem;
+         font-weight: 300;
+         letter-spacing: 2px;
+         padding: 20px 10px 10px 10px;
+         margin: 0px 0px 0px 0px;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     
+     
+     
+     #range {
+         max-height: 25%;
+         width:100%;
+         color: white;
+         text-align: center;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     
+     #range h1 {
+         font-size: 3rem;
+         font-weight: 700;
+         padding: 20px 10px 10px 0px ;
+         margin: 0px 0px 0px 0px ;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     
+     #range h3 {
+         font-size: 1rem;
+         font-weight: 300;
+         letter-spacing: 2px;
+         padding: 20px 10px 10px 10px;
+         margin: 0px 0px 0px 0px;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     #small {
+         font-size: 1.5rem;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     
+     
+     #charge {
+         height: 15%;
+         width:100%;
+         color: white;
+         text-align: center;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     
+     #charge h1 {
+         font-size: 3rem;
+         font-weight: 700;
+         padding: 20px 10px 10px 0px ;
+         margin: 0px 0px 0px 0px ;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     
+     #charge h3 {
+         font-size: 1rem;
+         font-weight: 300;
+         letter-spacing: 2px;
+         padding: 20px 10px 10px 10px;
+         margin: 0px 0px 0px 0px;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     
+     
+     
+     #subContent {
+         height: 20%;
+         width: 100%;
+         flex-wrap: wrap;
+         display: flex;
+         align-items:stretch;
+         border-top: solid 1px white;
+         
+     }
+     #title {
+         height: 30%;
+         width: 100%;
+         display: flex;
+         align-items: start;
+         display: none;
+         
+     
+     }
+     #heroText {
+         font-size: 4vw;
+         color: white;
+         letter-spacing: 3px;
+         margin: 0px 0px 0px 50px;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     
+     #sliderContainer {
+         height: 70%;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-wrap: wrap;
+     
+     }
+     #sliderWrap{
+         display: flex;
+         width: 100%;
+         align-items: center;
+         justify-content: center;
+     
+     }
+     
+     #sliderWrap img{
+         margin-right: 20px;
+         margin-left: 20px;
+     
+     }
+     #slider{
+         height: 10px;
+         width: 50%;
+         background: white;
+         box-shadow: 2px 4px 5px rgba(255, 255, 255, 0.432);
+         
+     
+     }
+     #progress {
+         width: 1%;
+         height: 100%;
+         background-color: yellow;
+     }
+     
+     .buttonHover {
+         background-color: white;
+         color: black;
+     }
+     
+     #supportingText {
+         height: 70%;
+         width: 40%;
+         display: none;
+     
+     }
+     
+     #supportingText p {
+         font-family: 'Chakra Petch', sans-serif;
+         color: white;
+         font-size: 1em;
+         font-weight:300;
+         letter-spacing: 1.5px;
+         line-height: auto;
+     }
+     .emph {
+         text-decoration: underline;
+         font-weight: 600;
+         
+     }
+
+     .sold {
+        color: red;
+        font-weight: 900;
+        font-style: 'Archivo Black', sans-serif;
+        
+    }
+
+    .italic {
+        font-style: 'italic';
+    }
+
+     #information {
+         position: relative;
+         height: auto;
+         width: auto;
+         color: black;
+         float: right;
+     }
+     
+     #information img {
+         max-height: 30px;
+         max-width: 30px;
+     }
+     
+     #leftCount {
+         height: 50px;
+         width: 50px;
+         font-size: 2rem;
+         margin-right: 10px;
+         color: white;
+         font-family: 'Chakra Petch', sans-serif;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+     
+     }
+     
+     #rightCount {
+         height: 50px;
+         width: 50px;
+         font-size: 2rem;
+         margin-left: 10px;
+         color: white;
+         font-family: 'Chakra Petch', sans-serif;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         color: yellow;
+     
+     }
+     
+     
+     #biketwo {
+         display: none;
+         height:100%;
+         width: 50%;
+         background-color: black;
+     
+     }
+     
+     #chris {
+         height:90%;
+         width: 100%;
+         display: none;
+     }
+     
+     #chris img {
+         max-height:100%;
+         max-width: 100%;
+     }
+     
+     #popup {
+        height: auto;
+        width: auto;
+        position: relative;
+     }
+   
+
+}
+
+
+
+/* for mediumish screens*/
+@media only screen and (min-width: 601px) and (max-width: 1400px) {
     #hero {
         display: flex; 
         flex-direction: column;
@@ -483,4 +985,488 @@
         position: relative;
      }
 }
+
+/* for large screens*/
+
+@media only screen and (min-width: 1401px) and (max-width: 2000px){
+    #hero {
+        display: flex; 
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        outline-style: solid;
+        outline-color: black;
+     
+     }
+     
+     nav {
+         display: flex;
+         height: 50px;
+         width: 100%;
+         background-color: black;
+         align-items: center;
+         flex-direction: row;
+         justify-content: space-between;
+     
+     }
+     #logo {
+         height:30px;
+         width: auto;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         margin-left: 50px;
+         text-align: center;
+         color: white;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     #logo img {
+         height:40px;
+         width: auto;
+     }
+     
+     nav ul li {
+         color:white;
+         display: inline-block;
+         font-size: 20px;
+         list-style: none;
+         margin-right: 50px;
+         font-weight: bold;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     
+     #Contact {
+         height:30px;
+         width: auto;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         margin-right: 10px;
+         text-align: center;
+         color: gold;
+         outline-color: gold;
+         outline-style: solid;
+         padding: 10px 10px 10px 10px;
+         font-family: 'Chakra Petch', sans-serif;
+         font-size: 14px;
+     
+     }
+     
+     #mainContent {
+         height: 65%;
+         width: 100%;
+         background-color: white;
+         display: flex;
+     }
+     
+     #bike{
+         height:100%;
+         width: 50%;
+         background-color: black;
+         
+     }
+     
+
+     #bike video{ 
+         height:100%;
+         width: 100%;
+        
+     }
+     #mileage {
+         height:100%;
+         width: 50%;
+         background-color: black;
+         display: flex;
+       
+         
+     }
+     
+     #mileageContent {
+         height:100%;
+         width: 80%;
+         display: flex;
+         
+     }
+     #bikewrapper {
+         display: flex;
+         flex-direction: column;
+         height:100%;
+         width: 45%;
+         align-items: end;
+         justify-content: end;
+       
+     
+     }
+     
+     #shinyBike {
+         height:90%;
+         width: 100%;
+     
+            
+     }
+     
+     #shinyBike img {
+         max-height:100%;
+         max-width: 100%;
+     
+         
+            
+     }
+     
+     #specs {
+         height:100%;
+         width: 55%;
+         color: white; 
+         font-family: 'Archivo Black', sans-serif;
+         font-family: 'Chakra Petch', sans-serif;
+         letter-spacing: 2px;
+         font-size: 20px;
+         line-height: 20px;
+         padding-left: 10px;
+         padding-right: 10px;
+         color: white;
+     }
+
+        
+    
+     #specifications {
+        width: 100%;
+        min-height: 10%;
+        width: 100%;
+        border-color: white;
+        color: white;
+        border-style: solid;
+        margin-bottom: 10px;
+        padding: 5px 5px 5px 5px;
+        position: relative;
+        background-color: black;
+     }
+
+     #specifications h2 {
+        display: inline-block;
+        position: relative;
+        float: left;
+        font-size: 20px;
+        margin: auto;
+    
+     }
+
+     #specDetail {
+        height: 100%;
+        width: 100%;
+        color: white;
+        background-color: red;
+        display: none;
+        font-size: 20px;
+        line-height: 25px;
+        font-family: 'Chakra Petch', sans-serif;
+        border: solid white 2px;
+     }
+
+     #gallery {
+        display: flex;
+        height:auto;
+        width: 100%;
+
+     }
+
+    
+
+    #sizzle video {
+        height:auto;
+         width: 100%;
+         border: solid 2px white;
+         box-shadow: 2px 4px 5px rgba(255, 255, 255, 0.432);
+
+    }
+     
+
+     
+
+     #float {
+        position: absolute;
+        right: 0;
+        display: block;
+        margin-right: 5px;
+     }
+     #float img {
+        max-height: 20px;
+        max-width: 20px;
+    
+     }
+
+     
+     
+     #alignspecs {
+         height: 100%;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: end;
+         justify-content: center;
+     }
+     
+     #speed {
+         height: 15%;
+         width:100%;
+         color: white;
+         text-align: center;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     
+     #speed h1{
+         font-size: 3rem;
+         font-weight: 700;
+         padding: 20px 10px 10px 0px ;
+         margin: 0px 0px 0px 0px ;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     
+     #speed h3{
+         font-size: 1rem;
+         font-weight: 300;
+         letter-spacing: 2px;
+         padding: 20px 10px 10px 10px;
+         margin: 0px 0px 0px 0px;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     
+     
+     
+     #range {
+         max-height: 25%;
+         width:100%;
+         color: white;
+         text-align: center;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     
+     #range h1 {
+         font-size: 3rem;
+         font-weight: 700;
+         padding: 20px 10px 10px 0px ;
+         margin: 0px 0px 0px 0px ;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     
+     #range h3 {
+         font-size: 1rem;
+         font-weight: 300;
+         letter-spacing: 2px;
+         padding: 20px 10px 10px 10px;
+         margin: 0px 0px 0px 0px;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     #small {
+         font-size: 1.5rem;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     
+     
+     #charge {
+         height: 15%;
+         width:100%;
+         color: white;
+         text-align: center;
+         font-family: 'Chakra Petch', sans-serif;
+     }
+     
+     #charge h1 {
+         font-size: 3rem;
+         font-weight: 700;
+         padding: 20px 10px 10px 0px ;
+         margin: 0px 0px 0px 0px ;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     
+     #charge h3 {
+         font-size: 1rem;
+         font-weight: 300;
+         letter-spacing: 2px;
+         padding: 20px 10px 10px 10px;
+         margin: 0px 0px 0px 0px;
+         line-height: 0px;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     
+     
+     
+     #subContent {
+         height: 35%;
+         width: 100%;
+         flex-wrap: wrap;
+         display: flex;
+         align-items:stretch;
+     }
+     #title {
+         height: 30%;
+         width: 100%;
+         display: flex;
+         align-items: start;
+         
+     
+     }
+     #heroText {
+         font-size: 4vw;
+         color: white;
+         letter-spacing: 3px;
+         margin: 0px 0px 0px 50px;
+         font-family: 'Chakra Petch', sans-serif;
+     
+     }
+     
+     #sliderContainer {
+         height: 70%;
+         width: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+     }
+     #sliderWrap{
+         display: flex;
+         width: 100%;
+         align-items: center;
+         justify-content: center;
+     
+     }
+     
+     #sliderWrap img{
+         margin-right: 20px;
+         margin-left: 20px;
+     
+     }
+     #slider{
+         height: 10px;
+         width: 50%;
+         background: white;
+         box-shadow: 2px 4px 5px rgba(255, 255, 255, 0.432);
+         
+     
+     }
+     #progress {
+         width: 1%;
+         height: 100%;
+         background-color: yellow;
+     }
+     
+     .buttonHover {
+         background-color: white;
+         color: black;
+     }
+     
+     #supportingText {
+         height: 70%;
+         width: 40%;
+     
+     }
+     
+     #supportingText p {
+         font-family: 'Chakra Petch', sans-serif;
+         color: white;
+         font-size: 1.3em;
+         font-weight:300;
+         letter-spacing: 1.5px;
+         line-height: auto;
+     }
+     .emph {
+         text-decoration: underline;
+         font-weight: 600;
+         
+     }
+
+     .sold {
+        color: red;
+        font-weight: 900;
+        font-style: 'Archivo Black', sans-serif;
+        
+    }
+
+    .italic {
+        font-style: 'italic';
+    }
+
+     #information {
+         position: relative;
+         height: auto;
+         width: auto;
+         color: black;
+         float: right;
+     }
+     
+     #information img {
+         max-height: 30px;
+         max-width: 30px;
+     }
+     
+     #leftCount {
+         height: 50px;
+         width: 50px;
+         font-size: 2rem;
+         margin-right: 10px;
+         color: white;
+         font-family: 'Chakra Petch', sans-serif;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+     
+     }
+     
+     #rightCount {
+         height: 50px;
+         width: 50px;
+         font-size: 2rem;
+         margin-left: 10px;
+         color: white;
+         font-family: 'Chakra Petch', sans-serif;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         color: yellow;
+     
+     }
+     
+     
+     #biketwo {
+         display: none;
+         height:100%;
+         width: 50%;
+         background-color: black;
+     
+     }
+     
+     #chris {
+         height:90%;
+         width: 100%;
+         display: none;
+     }
+     
+     #chris img {
+         max-height:100%;
+         max-width: 100%;
+     }
+     
+     #popup {
+        height: auto;
+        width: auto;
+        position: relative;
+     }
+}
+
 
