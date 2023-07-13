@@ -8,10 +8,9 @@
     html {
         height: -webkit-fill-available;
       }
-      
+
     body {
         min-height: 100vh;
-        overflow-y: scroll;
         min-height: -webkit-fill-available;
         
     }
