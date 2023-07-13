@@ -5,19 +5,24 @@
 
 /* for mobile screenss*/
 @media only screen and (min-width: 200px) and (max-width: 600px) {
-   
+    :root {
+        — app-height: 100%;
+       }
 
-    body {
+    html, body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        width: 100vw;
         height: 100vh;
         height: var( — app-height);
-        overflow: hidden;
         
     }
 
     #hero {
         display: flex; 
         flex-direction: column;
-        height: 100%;
+        height: 100vh;
         width: 100%;
         background-color: black;
         outline-style: solid;
