@@ -9,6 +9,7 @@ appHeight()
 
 //contact us button
 let contact = document.getElementById("Contact")
+let form = document.getElementById("form")
 function contactChange() {
     contact.classList.add("buttonHover");
 };
@@ -17,8 +18,14 @@ function contactChangeRemove() {
     contact.classList.remove("buttonHover");
 };
 
+function slideInPopUp() {
+  form.style.display = "flex";
+  form.style.cssText = 'animation: slide-in .5s ease; animation-fill-mode: forwards;'
+}
+
 contact.addEventListener('mouseover', contactChange);
 contact.addEventListener('mouseout', contactChangeRemove);
+contact.addEventListener('click', slideInPopUp);
 
 //slide bar
 
