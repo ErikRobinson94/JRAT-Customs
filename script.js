@@ -39,9 +39,23 @@ close.addEventListener('click', slideOutPopUp);
 
  let rightArrow = document.getElementById('rightArrow');
  let myprogress = document.getElementById('progress');
+ let pages = document.querySelectorAll(".mainContent")
+ let translateAmount = 100;
+ let translate = 0;
+
+ function move () {
+  translate -= translateAmount
+  pages.forEach (
+    pages =>(pages.style.transform = `translateX(${translate}%)`)
+    )
+
+ };
+ 
+ rightArrow.addEventListener("click", move)
+
  let count = 0;
 
- function changeinner () {
+ /*function changeinner () {
   if (count <10) {
     count = ++count;
     document.getElementById("leftCount").innerHTML = `${count}`;
@@ -54,9 +68,9 @@ close.addEventListener('click', slideOutPopUp);
     myprogress.style.width = "1%";
 
   }
- };
+ };*/
 
- rightArrow.addEventListener("click", changeinner)
+
 
  // add specs
  let specs = document.getElementById("specifications");
@@ -84,4 +98,6 @@ close.addEventListener('click', slideOutPopUp);
 
  specs.addEventListener("mouseover", showSpecs);
  specs.addEventListener('mouseout', ag);
+
+ // slider
  
