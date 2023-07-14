@@ -81,7 +81,7 @@ body {
 
      form  {
         width: 70%;
-        height: 70%;
+        height: 60%;
         margin: 10px 10px 10px 10px;
         display: flex;
         flex-direction: column;
