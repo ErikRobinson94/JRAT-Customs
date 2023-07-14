@@ -56,12 +56,12 @@ body {
         border-right: solid 2px white;
         border-color: lightblue;
         box-shadow: 2px 4px 5px rgb(16, 239, 255);
-        transform: translate(-101%);
+        transform: translate(-105%);
      }
 
      @keyframes slide-in {
         0% {
-            transform: translateX(-101%)
+            transform: translateX(-105%)
         }
         100% {
             transform: translateX(0)
