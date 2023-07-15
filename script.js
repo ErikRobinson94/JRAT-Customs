@@ -38,20 +38,31 @@ close.addEventListener('click', slideOutPopUp);
 //slide bar
 
  let rightArrow = document.getElementById('rightArrow');
+ let leftArrow = document.getElementById('leftArrow');
  let myprogress = document.getElementById('progress');
  let pages = document.querySelectorAll(".mainContent")
  let translateAmount = 100;
  let translate = 0;
 
- function move () {
+ function moveright () {
   translate -= translateAmount
   pages.forEach (
     pages =>(pages.style.transform = `translateX(${translate}%)`)
     )
 
  };
+
+ function moveleft () {
+  translate += translateAmount
+  pages.forEach (
+    pages =>(pages.style.transform = `translateX(${translate}%)`)
+    )
+
+ };
+
  
- rightArrow.addEventListener("click", move)
+ rightArrow.addEventListener("click", moveright)
+ leftArrow.addEventListener("click", moveleft)
 
  let count = 0;
 
