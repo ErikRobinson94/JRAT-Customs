@@ -59,6 +59,10 @@ body {
         z-index: 10;
      }
 
+     #page2 {
+        z-index: 0;
+     }
+
      @keyframes slide-in {
         0% {
             transform: translateX(-105%)
