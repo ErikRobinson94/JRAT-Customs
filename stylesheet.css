@@ -21,7 +21,7 @@ body {
     height: var(--app-height);
 }
 .available {
-    color: green;
+    color: lime;
 }
 
 .submitBid {
@@ -32,6 +32,7 @@ body {
     border-style: groove;
     border-color: lime;
     padding: 10px 10px 10px 10px;
+    box-shadow: 2px 4px 5px rgb(0, 245, 0); ;
 }
     
     #hero {
