@@ -20,6 +20,19 @@ body {
     overflow: hidden;
     height: var(--app-height);
 }
+.available {
+    color: green;
+}
+
+.submitBid {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    background-color: darkgreen;
+    border-style: groove;
+    border-color: lime;
+    padding: 10px 10px 10px 10px;
+}
     
     #hero {
         display: flex; 
@@ -64,6 +77,10 @@ body {
         z-index: 0;
      }
 
+     #page3 {
+        z-index: 0;
+     }
+
      @keyframes slide-in {
         0% {
             transform: translateX(-105%)
@@ -83,7 +100,7 @@ body {
      }
 
      .pages {
-        width: 200%;
+        width: 300%;
         height: 80%;
         display: flex;
         flex-direction: row;
